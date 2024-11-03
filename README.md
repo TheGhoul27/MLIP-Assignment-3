@@ -83,7 +83,7 @@ To illustrate Cortex’s ease of use, here’s a general workflow for deploying 
 * Install Cortex CLI and configure it with your cloud provider (e.g., AWS or GCP).
 
 ```bash
-bashCopy code# Install Cortex CLI
+# Install Cortex CLI
 bash -c "$(curl -sS https://raw.githubusercontent.com/cortexlabs/cortex/cli/install.sh)"
 ```
 
@@ -92,7 +92,7 @@ bash -c "$(curl -sS https://raw.githubusercontent.com/cortexlabs/cortex/cli/inst
 * Define a `cortex.yaml` file, specifying parameters such as compute requirements, autoscaling settings, and API type.
 
 ```yaml
-yamlCopy code- name: text-summarizer
+- name: text-summarizer
   kind: RealtimeAPI
   predictor:
     type: tensorflow
@@ -111,7 +111,7 @@ yamlCopy code- name: text-summarizer
 * In the `predictor.py` file, define the model’s loading and prediction logic, adjusting it as needed.
 
 ```python
-pythonCopy code# predictor.py
+# predictor.py
 import tensorflow as tf
 
 class Predictor:
@@ -129,7 +129,7 @@ class Predictor:
 * Run the deployment command to launch the model API.
 
 ```bash
-bashCopy codecortex deploy
+codecortex deploy
 ```
 
 * Once deployed, Cortex provides a REST endpoint where the model can be accessed.
