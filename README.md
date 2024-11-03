@@ -1,4 +1,4 @@
-## Title: Mastering Scalable ML Deployments with Cortex: A Comprehensive Guide
+## Mastering Scalable ML Deployments with Cortex: A Comprehensive Guide
 
 ### Introduction
 
