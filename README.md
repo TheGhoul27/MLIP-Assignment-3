@@ -2,7 +2,7 @@
 
 ### Introduction
 
-## Deploying machine learning models to production is a challenge that extends beyond model accuracy—it demands scalability, reliability, and real-time responsiveness. **Cortex** is a powerful, open-source tool that helps data scientists and ML engineers deploy, scale, and manage machine learning models as APIs on Kubernetes. In this post, we’ll dive into Cortex, explore its core features, and demonstrate how it simplifies model deployment, making it an excellent choice for any production environment.
+Deploying machine learning models to production is a challenge that extends beyond model accuracy—it demands scalability, reliability, and real-time responsiveness. **Cortex** is a powerful, open-source tool that helps data scientists and ML engineers deploy, scale, and manage machine learning models as APIs on Kubernetes. In this post, we’ll dive into Cortex, explore its core features, and demonstrate how it simplifies model deployment, making it an excellent choice for any production environment.
 
 ### 1\. What is Cortex, and Why is it Important?
 
